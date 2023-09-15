@@ -1,0 +1,439 @@
+body{
+    background-color:#F1F7FD ;
+    overflow-x: hidden;
+    
+}
+*{
+    font-family: helvetica, arial,"hiragino sans gb",stxihei,"microsoft yahei","wenquanyi micro hei",hind,"ms gothic","apple sd gothic neo",nanumbarungothic,sans-serif;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+nav{
+    position: fixed;
+    background-color: #f1f7fd;
+    width: 100%;
+    z-index: 10;
+    margin-left: -15px;
+    
+}
+ul{
+    margin-left: 290px;
+    margin-top: 35px;
+}
+li{
+    padding: 24px;
+}
+.nav button{
+    width: 90px;
+    height: 42px;
+    border: none;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #F1F7FD;
+}
+/*first container*/
+.contA{
+    display: block;
+    width: 100%;
+    height: 700px;
+    background-color: #F1F7FD;
+}
+.contA img{
+    position: absolute;
+    width:450px;
+    margin-top: 160px;
+    margin-left: 720px;
+}
+.contA button{
+    position: relative;
+    margin-top: 630px;
+    margin-left: 100px;
+    border: none;
+    width: 190px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #2793ff;
+    color: white;
+}
+/*second container*/
+.contB{
+    display: block;
+    width: 100%;
+    height: 700px;
+    background-color: #F1F7FD;
+}
+.contb{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 1200px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 60px;
+    background-image:url(/space.jpg) ;
+    background-size: 1200px;
+    border-radius: 30px;
+}
+.contb button{
+    position: absolute;
+    margin-top:280px;
+    margin-left: 20px;
+    border: none;
+    width: 250px;
+    height: 60px;
+    border-radius: 8px;
+    background-color: #2793ff;
+    color: white;
+    font-size: 17px;
+}
+.contB img{
+    position: absolute;
+    z-index: 4;
+    width:1250px;
+    margin-top: 500px;
+    margin-left: 40px;
+}
+.contb img{
+    position: absolute;
+    width:700px;
+    margin-top: 8px;
+    margin-left: 460px;
+}
+.icon-ok-sign{
+    color: white;
+    margin-left: 20px;
+}
+/*third container*/
+.contC{
+    position: absolute;
+    width: 100%;
+    height: 150px;
+    background-color: #2793ff;
+    color: #F7FAFDB3;
+    font-size: 50px;
+    padding: 30px 90px;
+    margin-top: 50px;
+    margin-left: -15px;
+}
+.contC button{
+    position: relative;
+    margin-top: 0px;
+    margin-left: 100px;
+    border: none;
+    width: 270px;
+    font-size: 25px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #F1F7FD;
+}
+/*fourth container*/
+.contD{
+    position:relative;
+    display: block;
+    width: 100%;
+    height: 1000px;
+    margin-top: 160px;
+    background-color: #F1F7FD;
+}
+.contd{
+    display: block;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    height: 700px;
+    margin-top: 50px;
+}
+.contd img{
+    position: absolute;
+    width:450px;
+    margin-top: 80px;
+    margin-left: 160px;
+}
+/**/
+.form{
+    display: block;
+    position: absolute;
+    width: 430px;
+    height: 570px;
+    border-radius: 20px;
+    margin-left: 750px;
+    margin-top: 90px;
+    box-shadow:2px 2px 2px 2px rgb(216, 211, 211);
+    background-color: rgb(255, 255, 255);
+}
+.form button{
+    width: 212px;
+    height: 80px;
+}
+.form button:hover{
+    background-color: #F1F7FD;
+}
+.form p{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.form select{
+    width: 320px;
+    height: 50px;
+    margin-left: 50px;
+    border-radius: 10px;
+}
+.form-control{
+    width: 320px;
+    height: 50px;
+    margin-left: 50px;
+}
+.fb button{
+    position: absolute;
+    width: 370px;
+    height: 60px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+    background-color: #2793ff;
+    color: white;
+    box-shadow: 1px 1px 1px 1px rgb(220, 232, 233);
+}
+.fb button:hover{
+    background-color: #2793ff;
+    box-shadow: 1px 2px 1px 1px rgb(220, 232, 233);
+}
+/*fifth container*/
+.contE{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 900px;
+    margin-top: 0px;
+    background-color: #F1F7FD;
+
+}
+.contE img{
+    position: absolute;
+    width:500px;
+    margin-top: 140px;
+    margin-left: 760px;
+}
+.text{
+    display: block;
+    position: absolute;
+    width: 650px;
+    height: 300px;
+    background-color: #f1f7fd;
+    margin-top: 450px;
+    margin-left: 80px;
+}
+.text span{
+   position: relative; 
+   margin-left: 53px;
+   font-size: 18px;
+   font-weight: normal;
+   color: #5b667c;
+}
+.text button{
+    position: absolute;
+    margin-top:40px;
+    margin-left: 20px;
+    border: none;
+    width: 300px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #2793ff;
+    color: white;
+    font-size: 17px;
+}
+/*sixth container*/
+.contF{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 600px;
+    margin-top: 0px;
+    background-color: #F1F7FD;
+}
+.carda{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 70px;
+    padding-left: 40px;
+    background-color: #F1F7FD;
+}
+.redd img{
+    width: 25px;
+}
+.contF .card{
+    border-radius: 30px;
+    height: 300px;
+}
+
+/*seventh container*/
+.contG{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 700px;
+    margin-top: 0px;
+    background-color: #F1F7FD;
+}
+.news{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 100px;
+    padding-left: 40px;
+    align-items: center;
+    background-color: #F1F7FD;
+}
+.contG .card{
+    border-radius: 30px;
+    background-color: #F1F7FD;
+    border: NONE;
+}
+.contG .card img{
+    border-radius: 10px;
+}
+.contG button{
+    position: absolute;
+    margin-top: -80px;
+    margin-left: 1000px;
+    border: none;
+    box-shadow: 2px 2px rgb(227, 229, 230);
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #ffff;
+    color: #000;
+    font-size: 17px;
+}
+/*eight container*/
+.contH{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 800px;
+    margin-top: 0px;
+    background-color: #f1f7fd;
+}
+.essential{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: 550px;
+    margin-top: 30px;
+    padding-left: 40px;
+    align-items: center;
+    background-color: #F1F7FD;
+}
+.contH .card{
+    border-radius: 30px;
+    height: 450px;
+}
+.contH .card img{
+    width: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.contH button{
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 1000px;
+    border: none;
+    box-shadow: 2px 2px rgb(227, 229, 230);
+    width: 250px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #ffff;
+    color: #000;
+    font-size: 17px;
+}
+/*ninth container*/
+.contI{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 800px;
+    margin-top: 0px;
+    background-color: #f1f7fd;
+}
+.games{
+    position: relative;
+    display: inline-flex;
+    width: 100%;
+    height: 550px;
+    margin-top: 30px;
+    padding-left: 40px;
+    align-items: center;
+    background-color: #F1F7FD;
+}
+.contI .card{
+    border-radius: 30px;
+    height: 500px;
+}
+.contI .card img{
+    width: 350px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/*tenth container*/
+.contJ{
+    position: relative;
+    width: 1350px;
+    height: 350px;
+    background-color: #2793ff;
+    color: #F7FAFDB3;
+    padding-left: 700px;
+    padding-top: 50px;
+    margin-top: 50px;
+    margin-left: -15px;
+}
+.contJ img{
+    position: absolute;
+    width: 450px;
+    overflow: auto;
+    z-index: 9;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+/*footer*/
+footer{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 560px;
+    margin-top: 0px;
+    background-color: #f1f7fd;
+}
+footer select{
+    position: absolute;
+    width: 200px;
+    height: 35px;
+    margin-top: 30px;
+    margin-left: 80px;
+    background-color: #F1F7FD;
+    border-radius: 10px;
+}
+.button{
+    margin-top: 200px;
+}
+footer button{
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 80px;
+    border: none;
+    width: 220px;
+    height: 50px;
+    border-radius: 15px;
+    background-color: #000;
+    color: white;
+    font-size: 17px;
+}
+footer h5{
+    font-size: 16px;
+    font-weight: normal;
+    padding: 20px 20px;
+}
